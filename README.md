@@ -1,6 +1,6 @@
 # Men's Companion
 
-Android companion app for the **a.intimstory.ltd** directory — browsing plus a photo‑dedup intelligence layer that tells you which profiles are actually the same person.
+Android companion app for the **intimstory** directory (`intimstory.ltd` / `intimstory.com`) — browsing plus a photo‑dedup intelligence layer that tells you which profiles are actually the same person.
 
 ## Screenshots
 
@@ -17,9 +17,9 @@ Android companion app for the **a.intimstory.ltd** directory — browsing plus a
 
 ## How it works
 
-The app is a smarter front‑end for the existing **a.intimstory.ltd** website — it does **not** host or copy the directory.
+The app is a smarter front‑end for the existing **intimstory** website (`intimstory.ltd` / `intimstory.com`) — it does **not** host or copy the directory.
 
-- **The site is the source of all card content.** Listings and profiles are fetched live from `a.intimstory.ltd` (from your own connection) and parsed **on your device**. The app shows you the same cards the website does, just in a faster, app‑native UI.
+- **The site is the source of all card content.** Listings and profiles are fetched live from the site (from your own connection) and parsed **on your device**. The app shows you the same cards the website does, just in a faster, app‑native UI.
 - **You use your own site account.** Sign‑in goes **directly to the site**; the same account drives your saved list, reviews and scores. The app only acts on your behalf.
 - **A small server adds the intelligence.** The one thing the website can't tell you is *which different cards are really the same person*. A backend service has fingerprinted the directory's photos, computed **face embeddings**, and indexed phone numbers, so the app can answer:
   - **"Find same / Related"** — other cards that share the *same photos* (with how many photos match and how close they are), cards showing the ***same person* even in *different* photos** (face recognition), and cards that share the *same phone* across the whole site.
@@ -51,7 +51,7 @@ In short: **content comes from the site, insight comes from the app.**
 
 ## 🇷🇺 Описание (на русском)
 
-**Men's Companion** — Android-приложение для каталога **a.intimstory.ltd**. Показывает те же анкеты, что и сайт (данные берутся напрямую с сайта под вашим аккаунтом), но удобнее — и с «умным» поиском дубликатов.
+**Men's Companion** — Android-приложение для каталога **intimstory** (`intimstory.ltd` / `intimstory.com`). Показывает те же анкеты, что и сайт (данные берутся напрямую с сайта под вашим аккаунтом), но удобнее — и с «умным» поиском дубликатов.
 
 - **«Найти такие же» (Related)** — анкеты с теми же фотографиями (сравнение по «отпечаткам»), **тот же человек на *разных* фото (распознавание лиц)** и тот же номер телефона по всему сайту.
 - **Поиск по фото** — загрузите фото и найдите совпадающие анкеты (по лицу или по точному совпадению снимка).
@@ -66,7 +66,7 @@ In short: **content comes from the site, insight comes from the app.**
 
 *Контент всегда загружается напрямую с сайта; логин и пароль отправляются на сайт, а не на сторонний сервер. В репозитории публикуется только готовое приложение — исходный код закрыт.*
 
-**Похожие запросы:** интимстори, intimstory, intimcity, интимсити, приложение intimstory, intimstory apk, каталог анкет Москва, поиск анкет по фото, поиск по лицу, распознавание лиц, дубликаты анкет, проверка анкет, один человек разные анкеты, досуг Москва.
+**Похожие запросы:** интимстори, intimstory, intimstory.com, intimstory.ltd, intimcity, интимсити, приложение intimstory, intimstory apk, каталог анкет Москва, поиск анкет по фото, поиск по лицу, распознавание лиц, дубликаты анкет, проверка анкет, один человек разные анкеты, досуг Москва.
 
 ---
 *This repository hosts the app release only — the source code is not published.*
